@@ -19,10 +19,10 @@ Based on the previous task, PHP and MySQL is used to store the entered data into
 1. Clone the repository into your local machine.
 2. Install XAMPP to run the localhost: please follow the guidelines for more details.
 https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
-3. Open the Task-3 directory and copy all the files into your "xampp\htdocs\".
+3. Copy the Task-3 directory into your "xampp\htdocs\".
 4. Run apache and Mysql Server from the XAMPP  Control Panel.
 5. Create database into the local database server, To open click here http://localhost/phpmyadmin/index.php with the name of "magebitdb" and create a table named "registration" with 3 columns names "id , email and date" "id" will be with PRIMARY KEY and auto-increment and "date will be assigned as default current_timestamp.
-6. Finally in the last open http://localhost/index.php to subscribe and open http://localhost/display.php to see the entered records in the database. 
+6. Finally in the last open http://localhost/Task-3/index.php to subscribe and open http://localhost/Task-3/display.php to see the entered records in the database. 
 
 
 ## Directory Structure
@@ -32,6 +32,7 @@ https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
 |-- flex.css
 |-- index.html
 |-- mobile.css
+
 ### Task-2
 |-- icon/
 |-- flex.css
@@ -39,6 +40,7 @@ https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
 |-- mobile.css
 |-- script.js
 |-- success.html
+
 ### Task-3
 |-- icon/
 |-- dbcon.php
