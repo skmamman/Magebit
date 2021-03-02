@@ -15,7 +15,7 @@ Open the Task-2 directory and double click on index.html to view the working of 
 Task 3 - PHP/MYSQL
 Based on the previous task, PHP and MySQL is used to store the entered data into the database. The display.php web page is created to see the records in the database with some sorting and filtering operations.
 
-### To run a PHP code into a local machine please use the following steps:
+### Installation and to run a PHP code into a local machine please use the following steps:
 1. Clone the repository into your local machine.
 2. Install XAMPP to run the localhost: please follow the guidelines for more details.
 https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
