@@ -1,0 +1,259 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(90deg, #FFFFFF 0%, #F2F5FA 100%);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #6A707B;
+    width: 100%;
+    height: 100%;
+}
+
+
+#right-content{
+    padding: 6.5rem;
+    background-image: url('./icons/image_summer-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#left-content {
+    display: grid;
+    grid-template-rows: 75px auto;
+    justify-content: stretch;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+
+@media(min-width: 1600px){
+#right-content{
+    flex: 66%;
+}
+#left-content {
+    flex: 34%;
+    padding: 6.5rem;
+}
+
+}
+
+@media(max-width: 1600px){
+#right-content{
+    flex: 50%;
+}
+#left-content {
+    flex: 50%;
+    padding: 6%;
+}
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 120px auto;
+    height: 40px;
+}
+
+.logo{
+    width: 118px;
+    height: 40px;
+    background-image: url('./icons/logo_pineapple.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.navbar{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    padding: 5px;
+    margin: 2px;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: right;
+    margin: 0px 5px;
+    padding: 0.5rem;
+    color: #131821;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: #4066A5;
+}
+
+.navbar a:onclick{
+    color: #233759;
+}
+
+
+/*body subcontents*/
+.body-container{
+    margin: auto 5%;
+    padding: 5%;
+   justify-content: center;
+}
+
+.contents {
+    width: 100%;
+    text-align: left;
+}
+
+h2 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+}
+
+.form-control{
+    padding: 1.2rem 0rem;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    border:none;
+    margin-left: -35px;
+    margin-right: -18%;
+    font-size: 16px;
+    padding-left: 30px;
+    text-align: left;
+    height: 70px;
+    width: 120%;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-left: 4px solid  #4066A5;
+    flex-grow: 2;
+}
+
+.email:hover {
+    border: 1px solid #4066A5;
+    border-left: 4px solid  #4066A5;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+
+.email:focus {
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 2px;   
+    margin-right: -55%;
+    height: 62px;
+    width: 3.9rem;
+    border:none;
+    background-color: white;
+    background-image: url('./icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button:hover{
+    max-width: 62px;
+    height: 62px;
+    background-image: url('./icons/ic_arrow-2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.button:clicked{
+    border:none;
+}
+
+.checkbox{
+    padding: 1rem 0rem;
+    text-decoration: none;
+    color: #6A707B;
+    text-align: left;
+    font-size: 16px;
+}
+
+.large{
+    margin-right: 10px;
+    transform: scale(2);
+}
+
+.result{
+font-size: 16px;
+color: red;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: red;
+}
+
+hr {
+    margin: 1.5rem 0rem;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+} 
+
+label a {
+    color: #131821;
+}
+
+label a:hover{
+        color: #4066A5;
+        cursor: pointer;
+}
+
+/*Social icons hover and pressed*/
+.social {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 60px;
+    margin: 5px;
+}
+
+.social img{
+    padding: 5px;
+    margin: 5px;
+    height: 46px;
+    width: 46px;
+    border-radius: 100%;
+}
+
+.facebook:hover {
+    content: url('./icons/Facebook2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    content: url('./icons/twitter2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    content: url('./icons/instagram2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.youtube:hover {
+    content: url('./icons/youtube2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}

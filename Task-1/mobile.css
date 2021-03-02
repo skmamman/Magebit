@@ -1,0 +1,235 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6A707B;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#left-content {
+    flex: 100%;
+    display: grid;
+    grid-template-rows: 66px auto;
+    justify-content: stretch;
+    background-image: url('./icons/image_summer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+}
+#right-content{
+    flex: 0%;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 50px auto;
+    height: 66px;
+    align-content: center;
+    padding: 0rem 1.5rem;
+    background: #FFFFFF;
+}
+
+.logo{
+    width: 25px;
+    height: 40px;
+    background-image: url('./icons/Union.png');
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    padding: 3px;
+    margin: 2px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+    color: #131821;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: #4066A5;
+}
+
+.body-container{
+    background: linear-gradient(90deg, #FFFFFF 0%, #F2F5FA 100%);
+    margin: auto 5%;
+    padding: 3% 5%;
+   justify-content: center;
+}
+
+@media(min-width: 550px){
+.body-container{
+    width: calc(100vw-50vw);
+    margin: auto 15%;
+    padding: 5%;
+}
+}
+
+h2 {
+    font-family: Georgia;
+    font-weight: normal;
+    font-weight: normal;
+    color: #131821;
+    font-size: 24px;
+}
+
+
+.form-control{
+    display: flex;
+    flex-direction: row;
+}
+
+.result{
+padding: 2px;
+margin: 2px;
+font-size: 16px;
+color: red;
+}
+
+.email {
+    border:none;
+    margin: 2px 0px;
+    padding: 2px;
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-left: 4px solid  #4066A5;
+}
+
+.email:hover {
+    border: 1px solid #4066A5;
+    border-left: 4px solid  #4066A5;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.email:focus {
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+}
+
+button{    
+    margin-top: 5px;
+    margin-left: -4rem;
+    height: 55px;
+    width: 3.9rem;
+    border:none;
+    background-color: white;
+    background-image: url('./icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2px 0px;
+    pointer-events: false;
+}
+
+button:hover{
+    background-image: url('./icons/ic_arrow-2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.checkbox{
+    padding: 12px 0px;
+    text-decoration: none;
+    color: #6A707B;
+    text-align: left;
+    font-size: 16px;
+}
+
+.large{
+    margin-right: 10px;
+    transform: scale(2);
+}
+
+.result{
+font-size: 16px;
+color: red;
+} 
+
+.navbar a {
+    padding: 0.5rem;
+    text-align: center;
+    color: #131821;
+}
+
+.navbar a:onclick{
+    color: #233759;
+}
+/* Change color on hover */
+label a {
+    color: #131821;
+}
+
+label a:hover{
+    cursor: pointer;
+    color: #4066A5;
+}
+
+hr {
+    margin: 2px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+} 
+
+/*Social icons hover and pressed*/
+.social {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem;
+    height: 60px;
+    margin: 3px;
+}
+
+.social img{
+    padding: 2.5px;
+    margin: 2.5px;
+    height: 46px;
+    width: 46px;
+    border-radius: 100%;
+}
+
+.facebook:hover {
+    content: url('./icons/Facebook2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    content: url('./icons/twitter2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    content: url('./icons/instagram2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.youtube:hover {
+    content: url('./icons/youtube2.png');
+    border-radius: 100%;
+    cursor: pointer;
+}
