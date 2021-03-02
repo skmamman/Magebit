@@ -28,12 +28,21 @@ https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
 ## Directory Structure
 
 ### Task-1
+
+```
+.
 |-- icon/
 |-- flex.css
 |-- index.html
 |-- mobile.css
 
+
+```
+
 ### Task-2
+
+```
+.
 |-- icon/
 |-- flex.css
 |-- index.html
@@ -41,7 +50,12 @@ https://codeofaninja.com/2013/06/how-to-run-a-php-script.html
 |-- script.js
 |-- success.html
 
+```
+
 ### Task-3
+
+```
+.
 |-- icon/
 |-- dbcon.php
 |-- display.php
